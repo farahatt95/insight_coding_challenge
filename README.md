@@ -1,6 +1,6 @@
 #Farah Attia: insight_coding_challenge
 
-I had some trouble with the run.sh file. I tested the solution with my own tests (in the tests.py and manually) and it was fine. However, when I tried to run run.sh, the first few times, it failed me on both tests, although I followed the instructions on how to try to structure the repo. On the second time, it said that my files were not there, and the next second, when I checked, they were gone.
+I had some trouble with the run.sh file. I tested the solution with my own tests (in the tests.py and manually) and it was fine. However, when I tried to run run.sh, the first few times, it failed me on both tests, although I followed the instructions on how to try to structure the repo and also made sure that the output was rounded to two decimal places and printed on a new line. On the second time, it said that my files were not there, and the next second, when I checked, they were gone.
 
 Therefore, in the folder src, I uploaded venmo-trans.txt (the venmo input you provided), Extract_Info.py, which was the solution I wrote, output.txt, the output that my solution produced, and tests.py, which contains testing for the solution I wrote. I hope that is okay.
 
