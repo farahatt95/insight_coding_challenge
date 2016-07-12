@@ -6,6 +6,15 @@ Therefore, in the folder src, I uploaded venmo-trans.txt (the venmo input you pr
 
 As I was working, I had my solution Extract_Info.py, venmo-trans.txt, and tests.py in the same folder, so they run under the assumption that these three things are in a folder together. The output txt is also written into the same folder that extract-info, tests, and venmo-trans.txt are written (which is in the src folder in this github repository).
 
+*In order to get the output to go in venmo_output, you can paste:
+
+save_path = 'C:/Users/Farah/Documents/Farah/Practice/coding-challenge-master/venmo_output'
+joinFile = os.path.join(save_path, "output.txt")
+outputFile = file(joinFile, 'w')
+
+directly above the main function, instead of outputFile = ... in line 116 of Extract_Info.py, but replace the string that save_path is equal to with a string representing the path of the venmo_output folder the output text should go to.*
+
+
 I realized too late that another solution to the problem would be to build a balanced max heap from the incoming data payments, with the degree of the node attached to the nodes, and then use extract_max in order to find the median each time, as each JSON is processed.
 
 My functions and classes are in the Extract_Info file. **In this file, I imported ast, datetime, and json.** I also have a tests file for testing purposes.
