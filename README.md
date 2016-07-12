@@ -1,4 +1,4 @@
-# insight_coding_challenge
+#Farah Attia: insight_coding_challenge
 
 I had some trouble with the run.sh file. I tested the solution with my own tests (in the tests.py and manually) and it was fine. However, when I tried to run run.sh, the first few times, it failed me on both tests, although I followed the instructions on how to try to structure the repo. On the second time, it said that my files were not there, and the next second, when I checked, they were gone.
 
