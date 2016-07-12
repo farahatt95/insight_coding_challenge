@@ -1,5 +1,9 @@
 # insight_coding_challenge
 
+I had some trouble with the run.sh file. I tested the solution with my own tests (in the tests.py and manually) and it was fine. However, when I tried to run run.sh, the first few times, it failed me on both tests, although I followed the instructions on how to try to structure the repo. On the second time, it said that my files were not there, and the next second, when I checked, they were gone.
+
+Therefore, I uploaded venmo-trans.txt (the venmo input you provided), Extract_Info.py, which was the solution I wrote, output.txt, the output that my solution produced, and tests.py, which contains testing for the solution I wrote. I hope that is okay.
+
 I realized too late that another solution to the problem would be to build a balanced max heap from the incoming data payments, with the degree of the node attached to the nodes, and then use extract_max in order to find the median each time, as each JSON is processed.
 
 My functions and classes are in the Extract_Info file. In this file, I imported ast, datetime, and json. I also have a tests file for testing purposes.
