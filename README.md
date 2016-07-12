@@ -6,7 +6,7 @@ Therefore, I uploaded venmo-trans.txt (the venmo input you provided), Extract_In
 
 I realized too late that another solution to the problem would be to build a balanced max heap from the incoming data payments, with the degree of the node attached to the nodes, and then use extract_max in order to find the median each time, as each JSON is processed.
 
-My functions and classes are in the Extract_Info file. *In this file, I imported ast, datetime, and json.* I also have a tests file for testing purposes.
+My functions and classes are in the Extract_Info file. **In this file, I imported ast, datetime, and json.** I also have a tests file for testing purposes.
 
 I have two classes, Node and Graph. My nodes are represented by the actor. My graph is represented as a dictionary where nodes are keys and values are lists of nodes that they are connected to.
 
